@@ -1,0 +1,9 @@
+a=int(input("Enter day")) # take input from the user
+b=int(input("enter month"))
+c=int(input("enter year"))
+if a<=31 and b<=12 and (c<=2021):# condition check, number of days less than or equal to 31 ,
+#number of months less than or equal to 12
+#number of years less than or equal to 2021
+    print("valid date")
+else:
+    print("Invalid date")
